@@ -53,7 +53,7 @@ namespace Proje {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Proje;component/updateproduct.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Proje;V1.0.0.0;component/updateproduct.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UpdateProduct.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
